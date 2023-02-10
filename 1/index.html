@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Преобразователь температуры из Цельсий в Фаренгейта</h2>
+
+    <p>Введите значение в поле Цельсий, чтобы преобразовать его в Фаренгейта:</p>
+    
+    <p>
+      <label>Цельсий</label>
+      <input id="inputCelcius" type="number" placeholder="Цельсий" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+    </p>
+    <p>Фаренгейт: <span id="outputFahrenheit"></span></p>
+    <script src="main.js"></script>
+</body>
+</html>
