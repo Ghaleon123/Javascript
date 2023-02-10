@@ -7,15 +7,13 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>Преобразователь температуры из Цельсий в Фаренгейта</h2>
-
-    <p>Введите значение в поле Цельсий, чтобы преобразовать его в Фаренгейта:</p>
-    
-    <p>
-      <label>Цельсий</label>
-      <input id="inputCelcius" type="number" placeholder="Цельсий" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
-    </p>
-    <p>Фаренгейт: <span id="outputFahrenheit"></span></p>
     <script src="main.js"></script>
+    <script>
+      const tempCelsius = +prompt("Введите значение температуры в градусах \
+Цельсия: ");
+        const tempFahrenheit = (9 / 5) * tempCelsius + 32;
+        alert('Температура ' + tempCelsius + ' градусов по Цельсию в градусах \
+по Фаренгейту равна: ' + Math.round(tempFahrenheit * 100) / 100);
+    </script>
 </body>
 </html>
