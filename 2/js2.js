@@ -1,5 +1,5 @@
-function greeting (userName) {
-    var userName = prompt("Enter Name");
-    alert(`Hello, ${userName}`);
-}
-greeting();
+"use strict";
+        
+    const name = "Николай";
+    const admin = name;
+    console.log(admin);
