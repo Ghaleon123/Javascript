@@ -17,7 +17,7 @@ function min(arr){
     return min;
 }
 
-function sevenBoom(arr) {
+function trio(arr) {
 
     if (arr.includes(3)) {
  
@@ -38,4 +38,4 @@ function sevenBoom(arr) {
     console.log(arr);
     console.log(`Сумма ${sum(arr)}`);
     console.log(`минимальное значение ${min(arr)}`);
-    console.log(`Ответ ${sevenBoom(arr)}`);
+    console.log(`Ответ ${trio(arr)}`);
