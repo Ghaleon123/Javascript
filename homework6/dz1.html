@@ -22,14 +22,14 @@
     <script>
     "use strict";
 // 1. Найти по id, используя getElementById, элемент с id равным "super_link" и вывести этот элемент в консоль.
-        let elem = document.getElementById('super_link');
-        console.log(elem);
+    let elem = document.getElementById('super_link');
+    console.log(elem);
 
 // 2. Внутри всех элементов на странице, которые имеют класс "card-link", поменяйте текст внутри элемента на "ссылка".
-    let elements = document.querySelectorAll('card-link');
-    elements.forEach(element => {
-        element.textContent = 'ссылка';
-    });
+        let BUBUBU = document.querySelectorAll('.card-link');
+        BUBUBU.forEach(function(Detroit){
+            Detroit.textContent = 'ссылка';
+        });
 // 3. Найти все элементы на странице с классом "card-link", которые лежат в элементе с классом "card-body" и вывести полученную коллекцию в консоль.
     let elems = document.querySelectorAll('.card-body .card-link');
     console.log(elems);
